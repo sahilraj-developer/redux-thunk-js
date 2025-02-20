@@ -9,4 +9,3 @@ Currently, two official plugins are available:
 
 
 
-![image](https://github.com/user-attachments/assets/418fd4e1-c607-4017-bfc9-80849fc69e2b)
