@@ -2,6 +2,7 @@ import React, { useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { incrementAsync } from './store/actions/counterActions';
 import { fetchUsers } from './store/actions/userActions';
+import Home from './pages/home';
 
 function App() {
   const count = useSelector((state) => state.counter.count);
@@ -31,6 +32,9 @@ function App() {
           <li key={user.id}>{user.name}</li>
         ))}
       </ul>
+
+
+      <Home/>
     </div>
   );
 }
